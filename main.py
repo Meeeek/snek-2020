@@ -42,7 +42,7 @@ def main():
             lose(player.get_length())
             running = False
         screen.update()
-        clock.tick(15)
+        clock.tick(11)
 
 def lose(score):
     highscore = get_highscore()
